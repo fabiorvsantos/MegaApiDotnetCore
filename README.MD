@@ -88,33 +88,36 @@ Trata-se de um serviço backend baseado no .NET Core 3.1, utilizando tecnologias
     <th>Link</th>
   </tr>
   <tr>
-    <td>Microsoft.EntityFrameworkCore</td>
+    <td>Microsoft.EntityFrameworkCore<br>
+      Biblioteca principal do Entity Framework Core (EF Core), usada para acessar bancos de dados de forma orientada a objetos.
+    </td>
     <td>3.1.8</td>
     <td>
       <a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/3.1.8">NuGet</a>
     </td>
   </tr>
-
   <tr>
-    <td>Biblioteca principal do Entity Framework Core (EF Core), usada para acessar bancos de dados de forma orientada a objetos.</td>
-  </tr>
-
-  <tr>
-    <td>Microsoft.EntityFrameworkCore.Design</td>
+    <td>Microsoft.EntityFrameworkCore.Design<br>
+      Fornece ferramentas para desenvolvimento, como suporte a migrações e scaffolding de código.
+    </td>
     <td>3.1.8</td>
     <td>
       <a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/3.1.8">NuGet</a>
     </td>
   </tr>
   <tr>
-    <td>Microsoft.EntityFrameworkCore.SqlServer</td>
+    <td>Microsoft.EntityFrameworkCore.SqlServer<br>
+      Implementação do EF Core para conectar-se a bancos de dados Microsoft SQL Server.
+    </td>
     <td>3.1.8</td>
     <td>
       <a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/3.1.8">NuGet</a>
     </td>
   </tr>
   <tr>
-    <td>Newtonsoft.Json</td>
+    <td>Newtonsoft.Json<br>
+      Biblioteca para serialização e desserialização de JSON, amplamente utilizada em APIs .NET.
+    </td>
     <td>12.0.2</td>
     <td>
       <a href="https://www.nuget.org/packages/Newtonsoft.Json/12.0.2">NuGet</a>
