@@ -2,11 +2,11 @@
   <br />
   <img
     src="./_docs/assets/icon.png"
-    alt="Mega Man Robots API"
+    alt="API Robos Mega Man"
     width="150"
   />
   <br />
-  <b>API Robos Mega ManAPI</b>
+  <b>API Robos Mega Man</b>
   <br />
   <sub
     ><sup><b>(MEGA-MAN-ROBOTS)</b></sup></sub
@@ -27,7 +27,9 @@
     />
   </a>
 </h1>
+
 ## Sobre
+
 <p align="center">
   Esta API desenvolvida em .NET Core foi criada para fornecer dados no formato JSON sobre os chefes da série Mega Man. 
 Trata-se de um serviço backend baseado no .NET Core 3.1, utilizando tecnologias modernas para gerenciamento de dados e manipulação de respostas da API.
@@ -89,30 +91,26 @@ Trata-se de um serviço backend baseado no .NET Core 3.1, utilizando tecnologias
     <td>Microsoft.EntityFrameworkCore</td>
     <td>3.1.8</td>
     <td>
-      <a
-        href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/3.1.8"
-        >NuGet</a
-      >
+      <a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/3.1.8">NuGet</a>
     </td>
   </tr>
+
+  <tr>
+    <td>Biblioteca principal do Entity Framework Core (EF Core), usada para acessar bancos de dados de forma orientada a objetos.</td>
+  </tr>
+
   <tr>
     <td>Microsoft.EntityFrameworkCore.Design</td>
     <td>3.1.8</td>
     <td>
-      <a
-        href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/3.1.8"
-        >NuGet</a
-      >
+      <a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/3.1.8">NuGet</a>
     </td>
   </tr>
   <tr>
     <td>Microsoft.EntityFrameworkCore.SqlServer</td>
     <td>3.1.8</td>
     <td>
-      <a
-        href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/3.1.8"
-        >NuGet</a
-      >
+      <a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/3.1.8">NuGet</a>
     </td>
   </tr>
   <tr>
