@@ -126,7 +126,8 @@ Trata-se de um serviço backend baseado no .NET Core 3.1, utilizando tecnologias
 
 ## 📂 Estrutura do Projeto
 
-```🌐
+```
+🌐
 src
 ├── 📂 Controllers      [Rotas da API]
 ├── 📂 Models           [Modelos de dados]
@@ -141,6 +142,6 @@ src
 ```
 
 ## 📜 Licença
-Este software é licenciado sob os termos da [MIT License](LICENSE).
-⌨️ FelipeAguiar - [Github](https://github.com/felipeAguiarCode)
+Este software é licenciado sob os termos da [MIT License](LICENSE).<br />
+⌨️ FelipeAguiar - [Github](https://github.com/felipeAguiarCode)<br />
 👨 Traduzido e adaptado por FabioRVSantos - [Github](https://github.com/fabiorvsantos/MegaApiDotnetCore)
