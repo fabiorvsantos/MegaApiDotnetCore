@@ -6,7 +6,7 @@
     width="150"
   />
   <br />
-  <b>Mega Man Robots API</b>
+  <b>API Robos Mega ManAPI</b>
   <br />
   <sub
     ><sup><b>(MEGA-MAN-ROBOTS)</b></sup></sub
@@ -27,17 +27,15 @@
     />
   </a>
 </h1>
-
+## Sobre
 <p align="center">
-  This .NET Core API is designed to serve JSON formatted data about bosses from
-  the Mega Man series. It is a backend service built with .NET Core 3.1 and
-  various modern dependencies for data management and API response handling.
+  Esta API desenvolvida em .NET Core foi criada para fornecer dados no formato JSON sobre os chefes da série Mega Man. 
+Trata-se de um serviço backend baseado no .NET Core 3.1, utilizando tecnologias modernas para gerenciamento de dados e manipulação de respostas da API.
   <br />
 </p>
 
 <p align="center">
-  Developed with Entity Framework Core and other modern .NET technologies, this
-  project aims to provide a robust API for accessing Mega Man robot data.
+  Construída com Entity Framework Core e outras tecnologias .NET, este projeto busca oferecer uma API robusta para acessar informações sobre os robôs do universo Mega Man.
   <br />
 </p>
 
@@ -46,47 +44,45 @@
   <img src="./_docs/assets/carbon.png" />
 </p>
 
-## API Endpoints
+## Endpoints da API
 
 <table align="center">
   <tr>
-    <th>Method</th>
+    <th>Método</th>
     <th>Endpoint</th>
-    <th>Description</th>
+    <th>Descrição</th>
   </tr>
   <tr>
     <td>GET</td>
     <td>/api/v1/robots</td>
-    <td>Returns a list of all robots</td>
+    <td>Retorna uma lista com todos os robôs</td>
   </tr>
   <tr>
     <td>GET</td>
     <td>/api/v1/robots/{id}</td>
-    <td>Returns details of a specific robot by ID</td>
+    <td>Retorna detalhes de um robô específico pelo ID</td>
   </tr>
   <tr>
     <td>POST</td>
     <td>/api/v1/robots</td>
-    <td>Endpoint to create a new robot entry</td>
+    <td>Cria um novo registro de robô</td>
   </tr>
 </table>
 
-## Techniques Used
+## Tecnologias Utilizadas
 
 <p align="center">
-  - <b>Entity Framework Core:</b> ORM for data management.<br />
-  - <b>RESTful API Design:</b> Ensures clear and effective communication
-  endpoints.<br />
-  - <b>Dependency Injection:</b> Used throughout to promote loose coupling and
-  enhanced testability.<br />
+  - <b>Entity Framework Core:</b> ORM para gerenciamento de dados.<br />
+  - <b>Arquitetura RESTful:</b> Design de API para comunicação clara e eficiente.<br />
+  - <b>Injeção de Dependência:</b> Facilita o desacoplamento e melhora a testabilidade do código.<br />
 </p>
 
-## Dependencies
+## Dependências
 
 <table align="center">
   <tr>
-    <th>Package</th>
-    <th>Version</th>
+    <th>Pacote</th>
+    <th>Versão</th>
     <th>Link</th>
   </tr>
   <tr>
@@ -128,23 +124,23 @@
   </tr>
 </table>
 
-## :gear: Arch
+## 📂 Estrutura do Projeto
 
 ```🌐
 src
-├── 📂 Controllers      [Routes for endpoints]
-├── 📂 Models           [Database models]
-├── 📂 Services         [Business rules]
-├── 📂 Middlewares      [Intermediate functions between the HTTP request and the final server response]
-├── 📂 Database         [Structures related to the database]
-│   ├── 📂 DTOs             [Input Models and View Models (Data Transfer Objects)]
-│   ├── 📂 EntityFramework  [Files related to the ORM Entity Framework]
-│   │     ├── 📂 Context         [Entity context settings]
-│   │     ├── 📂 Migrations      [Migrations for database updates]
-│   ├── 📂 Repositories     [Repository pattern]
+├── 📂 Controllers      [Rotas da API]
+├── 📂 Models           [Modelos de dados]
+├── 📂 Services         [Regras de negócio]
+├── 📂 Middlewares      [Funções intermediárias entre a requisição HTTP e a resposta final]
+├── 📂 Database         [Estruturas relacionadas ao banco de dados]
+│   ├── 📂 DTOs             [Mdelos de Entrada e View Models (Data Transfer Objects)]
+│   ├── 📂 EntityFramework  [Aquivos do ORM Entity Framework]
+│   │     ├── 📂 Context         [Cnfigurações do contexto do banco de dados]
+│   │     ├── 📂 Migrations      [Migrações para atualizações do banco]
+│   ├── 📂 Repositories     [Padrão de repositório]
 ```
 
-## License This software is licensed under the terms of the [MIT]
-
-⌨️ FelipeAguiar -
-[Github](https://github.com/felipeAguiarCode)
+## 📜 Licença
+Este software é licenciado sob os termos da [MIT License](LICENSE).
+⌨️ FelipeAguiar - [Github](https://github.com/felipeAguiarCode)
+👨 Traduzido e adaptado por FabioRVSantos - [Github](https://github.com/fabiorvsantos/MegaApiDotnetCore)
